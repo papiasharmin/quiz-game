@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body{
+     background-color: #F5F7FB;
+     
+}
+
+.start-container{
+    
+    padding: 10px ;
+    text-align: center;
+    color: #293264;
+}
+
+lable{
+    padding:15px;
+}
+
+fieldset{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+select {
+    border: none;
+    border-radius:15px;
+    color: #F5F7FB;
+    background-color: #293264;
+    padding:7px;
+    text-align: center;
+}
+select > option {
+    background-color: #DBDEF0;
+    color: #293264;
+}
+
+
+.start-container > button{
+    width: 193px;
+    height: 52px;
+    background-color: #293264;
+    color: #F5F7FB;
+    border: none;
+    border-radius:15px;
+    margin-top: 20px
+}
+.input{
+    margin-top:20px;
+}
+.quiz-container{
+    border-bottom: 0.79px solid #DBDEF0;
+}
+.check-button-container > span{
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+
+
+margin-top:15px;
+
+
+}
+
+.quiz-container > h4{
+ 
+font-family: 'Karla', sans-serif;
+font-size: 1em;
+font-style: normal;
+font-weight: 700,bold;
+margin-bottom: 15px;
+
+    
+    
+}
+
+.quiz-page{
+    padding: 5% 12%;
+    color: #293264;
+}
+
+.check-button-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0px 40px;
+}
+
+
+.choice-button{
+    min-width:60px;
+    border: 2px solid #293264;
+    border-radius:10px;
+    margin-right:15px;
+    margin-bottom: 15px;
+    color: #293264;
+    padding:5px;
+    font-family: Inter;
+     font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.check-button{
+     padding: 10px;
+    background-color: #293264;
+    color: #F5F7FB;
+    border: none;
+    border-radius:15px;
+    margin-top: 15px ; 
+     
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+align-items: center
+
+
+}
+button:focus{
+    
+    outline: none;
+
+}
